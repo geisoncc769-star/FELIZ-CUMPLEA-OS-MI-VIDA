@@ -1,0 +1,463 @@
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* ===== TABLETS Y PANTALLAS MEDIANAS ===== */
+@media (max-width: 1024px) {
+    .container {
+        padding: 18px;
+        max-width: 95vw;
+    }
+    
+    .title {
+        margin-bottom: 25px;
+    }
+    
+    .rose-flower {
+        width: 75px;
+        height: 65px;
+    }
+    
+    .rose-stem {
+        height: 110px;
+    }
+    
+    .message {
+        max-width: 450px;
+        padding: 18px;
+    }
+    
+    .audio-controls {
+        min-width: 130px;
+    }
+    
+    .particle {
+        font-size: 18px;
+    }
+    
+    .sparkle {
+        width: 3px;
+        height: 3px;
+    }
+}
+
+/* ===== TABLETS VERTICALES ===== */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        max-width: 95vw;
+    }
+    
+    .title {
+        margin-bottom: 20px;
+        font-size: clamp(1.5rem, 5vw, 2.5rem);
+    }
+    
+    .rose-container {
+        margin: 25px 0;
+    }
+    
+    .rose-flower {
+        width: 70px;
+        height: 60px;
+    }
+    
+    .rose-stem {
+        height: 100px;
+        width: 5px;
+    }
+    
+    .rose-leaf {
+        width: 22px;
+        height: 13px;
+        right: -13px;
+    }
+    
+    /* Ajustar pétalos exteriores para tablets */
+    .petal-outer-1, .petal-outer-2, .petal-outer-3, 
+    .petal-outer-4, .petal-outer-5, .petal-outer-6 {
+        width: 32px;
+        height: 40px;
+    }
+    
+    /* Ajustar pétalos interiores para tablets */
+    .petal-inner-1, .petal-inner-2, .petal-inner-3,
+    .petal-inner-4, .petal-inner-5, .petal-inner-6 {
+        width: 22px;
+        height: 27px;
+    }
+    
+    .rose-center {
+        width: 13px;
+        height: 13px;
+        top: 29px;
+        left: 33px;
+    }
+    
+    .message {
+        margin: 20px auto;
+        padding: 15px;
+        max-width: 90%;
+        font-size: clamp(0.9rem, 4vw, 1.2rem);
+    }
+    
+    .audio-controls {
+        bottom: 15px;
+        right: 15px;
+        min-width: 120px;
+        padding: 12px;
+    }
+    
+    .audio-controls button {
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+    
+    .volume-control span {
+        font-size: 14px;
+    }
+    
+    #volumeSlider {
+        height: 5px;
+    }
+    
+    #volumeSlider::-webkit-slider-thumb {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .particle {
+        font-size: 16px;
+    }
+}
+
+/* ===== MÓVILES GRANDES ===== */
+@media (max-width: 480px) {
+    .container {
+        padding: 12px;
+    }
+    
+    .title {
+        margin-bottom: 15px;
+        font-size: clamp(1.3rem, 6vw, 2rem);
+    }
+    
+    .rose-container {
+        margin: 20px 0;
+    }
+    
+    .rose-flower {
+        width: 65px;
+        height: 55px;
+    }
+    
+    .rose-stem {
+        height: 90px;
+        width: 4px;
+    }
+    
+    .rose-leaf {
+        width: 20px;
+        height: 12px;
+        right: -12px;
+        top: 55px;
+    }
+    
+    .rose-base {
+        width: 25px;
+        height: 18px;
+    }
+    
+    /* Pétalos exteriores móviles */
+    .petal-outer-1 {
+        width: 28px;
+        height: 35px;
+        top: 13px;
+        left: 20px;
+    }
+    
+    .petal-outer-2 {
+        width: 28px;
+        height: 35px;
+        top: 4px;
+        left: 30px;
+    }
+    
+    .petal-outer-3 {
+        width: 28px;
+        height: 35px;
+        top: 13px;
+        left: 38px;
+    }
+    
+    .petal-outer-4 {
+        width: 28px;
+        height: 35px;
+        top: 30px;
+        left: 34px;
+    }
+    
+    .petal-outer-5 {
+        width: 28px;
+        height: 35px;
+        top: 30px;
+        left: 17px;
+    }
+    
+    .petal-outer-6 {
+        width: 28px;
+        height: 35px;
+        top: 21px;
+        left: 8px;
+    }
+    
+    /* Pétalos interiores móviles */
+    .petal-inner-1 {
+        width: 20px;
+        height: 25px;
+        top: 22px;
+        left: 26px;
+    }
+    
+    .petal-inner-2 {
+        width: 20px;
+        height: 25px;
+        top: 18px;
+        left: 34px;
+    }
+    
+    .petal-inner-3 {
+        width: 20px;
+        height: 25px;
+        top: 26px;
+        left: 38px;
+    }
+    
+    .petal-inner-4 {
+        width: 20px;
+        height: 25px;
+        top: 34px;
+        left: 30px;
+    }
+    
+    .petal-inner-5 {
+        width: 20px;
+        height: 25px;
+        top: 30px;
+        left: 22px;
+    }
+    
+    .petal-inner-6 {
+        width: 20px;
+        height: 25px;
+        top: 22px;
+        left: 22px;
+    }
+    
+    .rose-center {
+        width: 12px;
+        height: 12px;
+        top: 27px;
+        left: 31px;
+    }
+    
+    .message {
+        margin: 15px auto;
+        padding: 12px;
+        font-size: clamp(0.85rem, 4.5vw, 1.1rem);
+        border-radius: 15px;
+    }
+    
+    .audio-controls {
+        bottom: 10px;
+        right: 10px;
+        padding: 10px;
+        min-width: 110px;
+        border-radius: 20px;
+    }
+    
+    .audio-controls button {
+        padding: 8px 12px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+    
+    .volume-control {
+        gap: 6px;
+    }
+    
+    .volume-control span {
+        font-size: 13px;
+    }
+    
+    #volumeSlider {
+        height: 4px;
+    }
+    
+    #volumeSlider::-webkit-slider-thumb {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .particle {
+        font-size: 14px;
+    }
+    
+    .sparkle {
+        width: 2px;
+        height: 2px;
+    }
+    
+    .confetti {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+/* ===== MÓVILES PEQUEÑOS ===== */
+@media (max-width: 320px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .title {
+        font-size: clamp(1.1rem, 7vw, 1.8rem);
+        margin-bottom: 12px;
+    }
+    
+    .rose-container {
+        margin: 15px 0;
+    }
+    
+    .rose-flower {
+        width: 55px;
+        height: 50px;
+    }
+    
+    .rose-stem {
+        height: 80px;
+        width: 4px;
+    }
+    
+    .rose-leaf {
+        width: 18px;
+        height: 11px;
+        right: -11px;
+        top: 50px;
+    }
+    
+    /* Pétalos más pequeños para móviles muy pequeños */
+    .petal-outer-1, .petal-outer-2, .petal-outer-3, 
+    .petal-outer-4, .petal-outer-5, .petal-outer-6 {
+        width: 25px;
+        height: 32px;
+    }
+    
+    .petal-inner-1, .petal-inner-2, .petal-inner-3,
+    .petal-inner-4, .petal-inner-5, .petal-inner-6 {
+        width: 18px;
+        height: 22px;
+    }
+    
+    .rose-center {
+        width: 10px;
+        height: 10px;
+        top: 25px;
+        left: 27px;
+    }
+    
+    .message {
+        padding: 10px;
+        margin: 12px auto;
+        font-size: clamp(0.8rem, 5vw, 1rem);
+    }
+    
+    .audio-controls {
+        min-width: 100px;
+        padding: 8px;
+    }
+    
+    .audio-controls button {
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+    
+    .particle {
+        font-size: 12px;
+    }
+}
+
+/* ===== ORIENTACIÓN HORIZONTAL EN MÓVILES ===== */
+@media (max-height: 500px) and (orientation: landscape) {
+    .container {
+        padding: 8px;
+    }
+    
+    .title {
+        font-size: clamp(1rem, 4vh, 1.8rem);
+        margin-bottom: 8px;
+    }
+    
+    .rose-container {
+        margin: 10px 0;
+        transform: scale(0.8);
+    }
+    
+    .message {
+        margin: 10px auto;
+        padding: 8px;
+        font-size: clamp(0.7rem, 3vh, 1rem);
+    }
+    
+    .audio-controls {
+        bottom: 5px;
+        right: 5px;
+        padding: 6px;
+    }
+    
+    .audio-controls button {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+}
+
+/* ===== PANTALLAS MUY GRANDES ===== */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+    
+    .title {
+        font-size: 3.5rem;
+        margin-bottom: 40px;
+    }
+    
+    .rose-container {
+        margin: 40px 0;
+        transform: scale(1.2);
+    }
+    
+    .message {
+        max-width: 500px;
+        padding: 25px;
+        font-size: 1.5rem;
+        margin: 40px auto;
+    }
+    
+    .audio-controls {
+        min-width: 160px;
+        padding: 18px;
+    }
+    
+    .audio-controls button {
+        padding: 14px 18px;
+        font-size: 16px;
+    }
+    
+    .particle {
+        font-size: 24px;
+    }
+    
+    .sparkle {
+        width: 5px;
+        height: 5px;
+    }
+}
