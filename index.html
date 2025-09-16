@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 Feliz Cumpleaños Mi Isa 💖</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="love-particles" id="loveParticles"></div>
+    <div class="sparkles" id="sparkles"></div>
+    
+    <div class="container">
+        <h1 class="title">🎉 Feliz Cumpleaños Mi Isa 🎂</h1>
+        
+        <div class="rose-container">
+            <div class="beautiful-rose" id="magicalRose">
+                <div class="rose-flower">
+                    <!-- Pétalos exteriores -->
+                    <div class="petal petal-outer-1"></div>
+                    <div class="petal petal-outer-2"></div>
+                    <div class="petal petal-outer-3"></div>
+                    <div class="petal petal-outer-4"></div>
+                    <div class="petal petal-outer-5"></div>
+                    <div class="petal petal-outer-6"></div>
+                    
+                    <!-- Pétalos interiores -->
+                    <div class="petal petal-inner petal-inner-1"></div>
+                    <div class="petal petal-inner petal-inner-2"></div>
+                    <div class="petal petal-inner petal-inner-3"></div>
+                    <div class="petal petal-inner petal-inner-4"></div>
+                    <div class="petal petal-inner petal-inner-5"></div>
+                    <div class="petal petal-inner petal-inner-6"></div>
+                    
+                    <!-- Centro de la rosa -->
+                    <div class="rose-center"></div>
+                    
+                    <!-- Base verde -->
+                    <div class="rose-base"></div>
+                </div>
+                
+                <!-- Tallo -->
+                <div class="rose-stem">
+                    <div class="rose-leaf"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="message" id="romanticMessage">
+            🌹 Toca la rosa mágica para descubrir algo especial 🌹
+        </div>
+    </div>
+
+    <div class="audio-controls">
+        <button id="musicToggle">🔇 Pausar</button>
+        <div class="volume-control">
+            <span>🔊</span>
+            <input type="range" id="volumeSlider" min="0" max="100" value="70">
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" loop autoplay>
+        <source src="cancion-favorita.mp3" type="audio/mpeg">
+        <p>Tu navegador no soporta audio HTML5.</p>
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
